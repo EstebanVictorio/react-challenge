@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "jsx": "react",
+    "module":"ESNext",
+    "noImplicitAny": false,
+    "moduleResolution": "Node",
+    "allowUmdGlobalAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "components/*":["components/*"],
+      "services/*":["services/*"],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
